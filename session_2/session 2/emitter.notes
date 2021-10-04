@@ -1,0 +1,10 @@
+# emitter 
+- emitter is used to call the event 
+
+# event
+- it is code that should be called or executed when the event is called 
+
+# arrow_function 
+- is used as a anonymous function so every time u dont need to name a function 
+
+

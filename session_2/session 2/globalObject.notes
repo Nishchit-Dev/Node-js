@@ -1,0 +1,11 @@
+# Global object 
+- console.log() 
+- setTimeout()
+- cleartime()
+- setInterval()
+- clearInterval()
+
+console.log() is equals as window.console.log()
+
+# var message = '';
+it can be accessed by window.message or by message 

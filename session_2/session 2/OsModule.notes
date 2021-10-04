@@ -1,0 +1,6 @@
+# Os module 
+- this module is used to get the inforamtion about the os 
+
+# import 
+
+- var os = require('os')

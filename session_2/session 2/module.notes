@@ -1,0 +1,29 @@
+# module
+- module is a javascript file which contain the var 
+- function and etc 
+
+# what is the use of module 
+- feature of the module is to resuse the code so 
+- it reduce the code burden and code complexity 
+
+# IMPORTANT 
+- Creating_module.js is a javascript file which has function
+- and the function can be used outside the Creating_module.js file
+- using the `export` command 
+
+# Creating_module.js (explanation)
+- their are two function named as hello() , log() 
+- we have exported one function so other javascript file can use that 
+- fucntion too
+
+- it can be exported using export
+- module.export.[ what_it_should_be_called_while_importing ] = [ name_of_exporting_fuction/var/etc ]
+
+# exporting module 
+- export 
+
+# import a module
+- require 
+- ex 
+    var logger = require('./Creating_module')
+    

@@ -1,0 +1,6 @@
+# architeture of node 
+- node is built of c++ and uses V8 engine to run the javascript 
+
+# about node js 
+- node is not programming  language and it is not a frame work 
+- it is   

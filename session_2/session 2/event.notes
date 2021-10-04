@@ -1,0 +1,17 @@
+# Event concept and Event 
+- its a basically a signal that indicate something is happened in application
+
+# emit and on 
+- #emit 
+    - emit is used to call the event 
+- # on 
+    - it describe what should happen when event is called
+
+- # IMPORTANT
+    - the order of the emit and on matter while excutin the js 
+    - if we emit the event without assiging `on` or after the emit is written we get on output 
+    - first the event should be desrcibed what to do when event is called using `on`
+    - second than the event is emitted or called 
+
+# argument indicate the event which event should be called 
+- given in file event.js

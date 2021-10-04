@@ -1,0 +1,25 @@
+# HttpModule 
+- its is module used to communicate with other server or client 
+
+# module name 
+- http 
+
+# http createserver method 
+- has 2 parameter 
+- where req stands for request 
+- where res stands for the response 
+- res and req has methods to wirte and end 
+
+# event ( server )
+- this event is called when connection is formed with the client 
+
+# listen method 
+- listen is used to set the `PORT` of a computer 
+
+# IMPORTANT
+- if res or req is used than req or res should end 
+
+- res.end() or req.end()
+
+# write method 
+- res has method that will response when req is used 

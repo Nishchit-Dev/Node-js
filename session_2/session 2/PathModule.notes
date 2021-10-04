@@ -1,0 +1,10 @@
+# Path module 
+-  it provide the utility function 
+
+# uses full modules in node
+- https 
+- Path
+- os 
+- process
+- query String 
+- Stream 
