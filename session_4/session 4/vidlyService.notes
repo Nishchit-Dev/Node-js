@@ -1,0 +1,25 @@
+# handling 'GET' method (here we are just showing movie list)
+- get method is used to fetch the data just by requesting the data 
+- ex app.get('uri',(paramaters))
+
+# handling 'POST' method (here we are adding the movie in array )
+- post method is used to post or to send data to the server by sending the data 
+- app.post('uri',(paramaters))
+
+    - to access the body of the req which arrives with the request
+    - we can use app.use(express.json()) or app.use(bodyParser) which is imported module's method
+
+    - app.post('/',(req,res)=>{
+        console.log(req.body.[paramter_name_used_in_json_body])
+    })
+# handling 'PUT' method 
+- it is used to update the data 
+- it is same as post req 
+
+- app.put('uri',(paramaters))
+
+# handling 'DELETE' method 
+- it is method used to do any DELETE type of operation in server
+
+- app.delete('uri',(paramaters))
+
