@@ -1,0 +1,22 @@
+# NPM 
+- npm stands for node package manager 
+- it manages the node packages 
+- we can use that package for our project also 
+
+# use npm 
+- in terminal 
+    - npm install / i [package_name]
+
+- and package is installed it get reflected in package.json in your project
+
+# dev dependency 
+- this are the dependency which should not be reflected on the production side 
+- like 
+    - testing , analysis etc 
+
+# use dev dependency
+- npm install / i --save-dev 
+- and will reflect in package.json file in dev dependency block
+
+# list the npm package
+- npm list --depth=0  
