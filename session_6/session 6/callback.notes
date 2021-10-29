@@ -1,0 +1,35 @@
+# callback 
+- callback is function used to get the result after calculating/ reading / searching etc 
+
+example 
+- if u r searching a user in the database 
+- the result will be displayed when the searching is finished so 
+- to handle the error or getting null result we use the callback function 
+
+# how to use the callback function 
+
+- we defiend a function which will be called 
+- again defiend or gives run time function to the calling 
+
+- in the callback.js 
+- we defined a function called getUser 
+ it has two arguments one is  ID and second is the reference to the callback function 
+ 
+ # here u can see the getUser function
+ function getUser(id, callback) {
+    setTimeout(() => {
+        console.log('reading the user data')
+        callback({ id: id, gituserreponame: "nishchit" })
+    }, 2000)
+ }
+# and we call the function 
+getUser(110, function(user) {
+    console.log(user)
+})
+
+
+here id = 110 
+callback = (user)=>{console.log(user)}
+
+callback in the getuser function get referenced to the anynomous function 
+

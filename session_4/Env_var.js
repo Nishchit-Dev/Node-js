@@ -1,16 +1,16 @@
-const express = require('express');
+ const express = require('express');
 
-const app = express();
+ const app = express();
 
-app.get('/', (req, res) => {
-        res.send("hello")
-        console.log("connected to the services")
+ app.get('/', (req, res) => {
+         res.send("hello")
+         console.log("connected to the services")
 
-    })
-    // ports
+     })
+     // ports
 
-const r = process.env.PORT || 3000;
+ const r = process.env.PORT || 3000;
 
-app.listen(r, () => {
-    console.log(`listening the port ${r}....`)
-})
+ app.listen(r, () => {
+     console.log(`listening the port ${r}....`)
+ })
